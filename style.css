@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#020024, #0000ff, #00d4ff);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: white;
+    padding-top: 30px;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.box h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    color: #015a96;
+    font-family: sans-serif;
+}
